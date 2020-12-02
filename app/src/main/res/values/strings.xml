@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">versuch3</string>
+    <string name="fahrer">Fahrer</string>
+    <string name="neue_fahrt">Neue Fahrt</string>
+    <string name="meine_fahrten">Meine Fahrten</string>
+    <string name="einstellungen">Einstellungen</string>
+    <string name="kontakt">Kontakt</string>
+    <string name="hilfe_faq">Hilfe / FAQ</string>
+    <string name="impressum">Impressum</string>
+    <string name="info">Info</string>
+    <string name="weiteres">Weiteres</string>
+    <string name="weiters">Weiters</string>
+    <string name="kbfapp">KBFAPP</string>
+    <string name="navigation">Navigation</string>
+    <string name="versuch3">versuch3</string>
+    <string name="krankenbef_rderung">Krankenbeförderung</string>
+    <string name="fahrer_muhammed_arslan">Fahrer: Muhammed Arslan</string>
+    <string name="muhammed_arslan">Muhammed Arslan</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

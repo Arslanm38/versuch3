@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/menuProfile">
+
+    <fragment
+        android:id="@+id/menuProfile"
+        android:name="com.example.versuch3.FahrerFragment"
+        android:label="Fahrer"
+        tools:layout="@layout/fragment_fahrer" />
+    <fragment
+        android:id="@+id/menuNeueFahrt"
+        android:name="com.example.versuch3.NeueFahrtFragment"
+        android:label="Neue Fahrt"
+        tools:layout="@layout/fragment_neue_fahrt" />
+    <fragment
+        android:id="@+id/menuEinstellungen"
+        android:name="com.example.versuch3.EinstellungenFragment"
+        android:label="Einstellungen"
+        tools:layout="@layout/fragment_einstellungen" />
+    <fragment
+        android:id="@+id/menuHilfe"
+        android:name="com.example.versuch3.HilfeFragment"
+        android:label="Hilfe/FAQ"
+        tools:layout="@layout/fragment_hilfe" />
+    <fragment
+        android:id="@+id/menuKontakt"
+        android:name="com.example.versuch3.KontaktFragment"
+        android:label="Kontakt"
+        tools:layout="@layout/fragment_kontakt" />
+    <fragment
+        android:id="@+id/menuMeineFahrten"
+        android:name="com.example.versuch3.LetztenFahrtenFragment"
+        android:label="Meine Fahrten"
+        tools:layout="@layout/fragment_letzten_fahrten" />
+    <fragment
+        android:id="@+id/menuNavi"
+        android:name="com.example.versuch3.NaviFragment"
+        android:label="Navigation"
+        tools:layout="@layout/fragment_navi" />
+</navigation>
